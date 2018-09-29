@@ -8,5 +8,5 @@ Requirements:
 
 To run the crawler:
 --------------------
-cd project_Directory
-scrapy crawl bodyBuilding
+- cd project_Directory
+- scrapy crawl bodyBuilding
