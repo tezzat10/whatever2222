@@ -5,13 +5,13 @@ import urllib
 import os
 
 class BodyBuildingSpider(scrapy.Spider):
-    main_urls = [{'link':'https://www.bodybuilding.com/fun/healthy-breakfast-recipes.html',
+    main_urls = [{'link':'https://www.bodybuilding.com/store/opt/whey.html',
                   'label':'Breakfast',
                   'DataFrame':DataFrame(dtype = str)},
-                 {'link': 'https://www.bodybuilding.com/fun/healthy-lunch-recipes.html',
+                 {'link': 'https://www.bodybuilding.com/store/bsn/synth.html',
                   'label': 'Lunch',
                   'DataFrame': DataFrame( dtype=str)},
-                 {'link': 'https://www.bodybuilding.com/fun/healthy-dinner-recipes.html',
+                 {'link': 'https://www.bodybuilding.com/store/bodybuilding-com/signature-100-percent-whey-protein.html',
                   'label': 'Dinner',
                   'DataFrame': DataFrame(dtype=str)}]
     name='bodyBuilding'
